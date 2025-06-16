@@ -1,0 +1,9 @@
+.nav{
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(152, 0, 15,0.5);
+    color: rgb(234, 209, 86);
+    background-color: rgb(200, 2, 2);
+}

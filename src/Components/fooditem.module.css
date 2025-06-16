@@ -1,0 +1,33 @@
+.itemcontainer{
+    /* padding: 20px; */
+    width: 300px;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    background-color: rgb(250, 250, 225);
+    overflow: hidden;
+}
+.image{
+    max-width: 100%;
+    height: auto;
+}
+.text{
+    font-size: 700;
+    font-weight: bold;
+    text-align: center;
+    color: #06483b;
+}
+.button{
+    padding: 9px 10px;
+    background-color: #02b18e;
+    border: none;
+    color: rgb(231, 231, 192);
+    border-radius: 14px;
+    
+}
+.buttoncontainer{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+}

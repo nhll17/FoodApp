@@ -1,0 +1,17 @@
+.inputcontainer{
+    margin: 20px auto;
+    position: relative;
+    width: 300px;
+}
+.input{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 4px;
+    border-bottom: 1px solid rgb(195, 195, 167);
+    color:#064337;
+    background-color: rgb(255, 255, 246);
+    font-size: 19px;
+    font-weight: 550;
+}
