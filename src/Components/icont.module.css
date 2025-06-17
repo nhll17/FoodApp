@@ -1,0 +1,5 @@
+.innercontainer{
+    padding: 10px;
+    margin: 10px;
+    flex: 1;/* flex: 1; for horizontal division of equal sixes */
+}
