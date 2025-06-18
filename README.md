@@ -1,12 +1,51 @@
-# React + Vite
+# Food App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that allows users to search for recipes and view detailed information about various dishes using the Spoonacular API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Search Recipes:** Find recipes by entering keywords.
+- **Recipe Details:** View cooking time, servings, price per serving, ingredients, and step-by-step instructions.
+- **Responsive UI:** Clean and user-friendly interface.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```
+   git clone https://github.com/YOUR-USERNAME/food-app.git
+   cd food-app
+   ```
+
+2. **Install dependencies:**
+   ```
+   npm install
+   ```
+   or
+   ```
+   yarn install
+   ```
+
+3. **Start the development server:**
+   ```
+   npm start
+   ```
+   or
+   ```
+   yarn start
+   ```
+
+4. **Open your browser:**  
+   Visit `http://localhost:3000`
+
+### API Key
+
+This app uses the [Spoonacular API](https://spoonacular.com/food-api).  
+You need to obtain a free API key and add it to the code (see `src/Components/Search.jsx` and `src/Components/Fooddetails.jsx`).
+
