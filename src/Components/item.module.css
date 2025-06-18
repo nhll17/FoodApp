@@ -1,6 +1,27 @@
 .itemcontainer{
-    
-}
-.imagecontainer{
+    display: flex;
+    margin-top: 50px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background-color: rgb(251, 250, 238);
 
+
+}    
+.imagecon{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+
+}
+.image{
+    max-width: 200%;
+    height: auto;
+    border-radius: 20px;
+}
+.details{
+    margin-left: 40px;
+    padding: 30px;
+    font-size: larger;
+    font-weight: 550;
 }
